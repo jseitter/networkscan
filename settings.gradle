@@ -1,0 +1,3 @@
+include 'networkscan-core'
+
+rootProject.name = 'networkscan'

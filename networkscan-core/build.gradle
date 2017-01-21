@@ -6,6 +6,7 @@ version='1.0-SNAPSHOT'
 
 
 repositories {
+	jcenter()
 	mavenCentral()
 	maven { url "http://mangoautomation.net:9902/maven-repo/" }
 	}
@@ -18,7 +19,7 @@ dependencies {
 	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.22'
 		
 	// https://mvnrepository.com/artifact/net.sourceforge.javacsv/javacsv
-	compile group: 'net.sourceforge.javacsv', name: 'javacsv', version: '2.1'
+	compile group: 'net.sourceforge.javacsv', name: 'javacsv', version: '2.0'
 	
 	// https://mvnrepository.com/artifact/joda-time/joda-time
 	compile group: 'joda-time', name: 'joda-time', version: '2.9.7'
